@@ -14,3 +14,4 @@
 -(pip install scrapy, pip install Twisted==22.10.0)
 -(pip install beautifulsoup4)
 -(scrapy runspider crawler/index.py -o data/jutsu.jsonl)
+-(2:06:13)
