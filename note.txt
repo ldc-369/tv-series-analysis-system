@@ -1,0 +1,16 @@
+-(https://scrapy.org/)
+-(https://pypi.org/project/beautifulsoup4/)
+-(https://huggingface.co/facebook/bart-large-mnli)
+
+
+-(python -m venv venv)
+-(.\venv\Scripts\activate)
+-(pip freeze > requirements.txt)
+-(pip install -r requirements.txt)
+-(deactivate)
+-(pip install virtualenv)
+-(virtualenv myenv)
+-(myenv\Scripts\activate)
+-(pip install scrapy, pip install Twisted==22.10.0)
+-(pip install beautifulsoup4)
+-(scrapy runspider crawler/index.py -o data/jutsu.jsonl)
